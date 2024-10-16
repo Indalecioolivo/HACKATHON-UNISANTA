@@ -1,9 +1,11 @@
 import "./MyProjects.css";
+import BuscadorTags from "../../modules/BuscadorTags/BuscadorTags";
 
 export default function MyProjects() {
   return (
     <section className="myprojects-container">
-      <h1>my projects</h1>
+      <h2>Meus Projetos</h2>
+      <BuscadorTags/>
     </section>
   );
 }
