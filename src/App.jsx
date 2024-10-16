@@ -4,9 +4,9 @@ import Header from "./modules/header/Header";
 
 export default function App() {
   return (
-    <div>
+    <body className="app-container">
       <Header />
       <Outlet />
-    </div>
+    </body>
   );
 }

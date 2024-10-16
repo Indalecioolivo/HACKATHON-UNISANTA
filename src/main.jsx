@@ -1,27 +1,32 @@
 import "./index.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
-import Home from "./routes/Home/Home.jsx";
-import Login from "./routes/Login/Login.jsx";
-import Error from "./routes/Error/Error.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { HomeProvider } from "./context/HomeContext.jsx";
+import App from "./App.jsx";
+import Login from "./routes/Login/Login.jsx";
+import MyProjects from "./routes/MyProjects/MyProjects.jsx";
+import Discover from "./routes/Discover/Discover.jsx";
+import Error from "./routes/Error/Error.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/",
     element: <App />,
     errorElement: <Error />,
     children: [
       {
-        path: "/home",
-        element: <Home />,
+        path: "/myprojects",
+        element: <MyProjects />,
+      },
+      {
+        path: "/discover",
+        element: <Discover />,
       },
     ],
   },
   {
-    path: "/",
+    path: "/login",
     element: <Login />,
   },
 ]);
