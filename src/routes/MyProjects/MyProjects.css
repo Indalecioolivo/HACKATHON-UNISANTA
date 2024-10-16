@@ -3,9 +3,10 @@
   border: 2px solid black;
 }
 
-.myprojects-container  h2 {
-
+.myprojects-container h2 {
+  position: absolute;
+  height: 10px;
+  left: 32px;
+  top: 363px;
 }
-
-
 
