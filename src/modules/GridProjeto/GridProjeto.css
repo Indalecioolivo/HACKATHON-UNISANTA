@@ -1,0 +1,66 @@
+.gridProjetos-container button {
+    /* Vertical container */
+
+    position: absolute;
+    width: 389px;
+    height: 258px;
+    left: 32px;
+    top: 495px;
+
+    background: #E6E9F2;
+    border-radius: 4px;
+}
+
+.gridProjetos-container h3 {
+    /* Adicione seu primeiro projeto */
+
+    position: absolute;
+    width: 223px;
+    height: 16px;
+    left: calc(50% - 223px/2 - 21px);
+    top: calc(50% - 16px/2 + 9px);
+
+    /* [Orange P] Style Guide/Body 1 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.5px;
+
+    color: #303133;
+
+    opacity: 0.6;
+}
+
+.gridProjetos-container p {
+    /* Compartilhe seu talento com milhares de pessoas */
+
+    position: absolute;
+    width: 270px;
+    height: 28px;
+    left: calc(50% - 270px/2 + 0.5px);
+    top: calc(50% - 28px/2 + 47px);
+
+    /* [Orange P] Style Guide/Body 2 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* or 100% */
+    letter-spacing: 0.25px;
+
+    color: #303133;
+
+    opacity: 0.6;
+
+    text-align: left;
+}
+
+.gridProjetos-container img {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
