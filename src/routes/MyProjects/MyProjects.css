@@ -2,3 +2,18 @@
   height: calc(100% - 73px);
 
 }
+
+.myprojects-container h2 {
+  position: absolute;
+  height: 10px;
+  left: 32px;
+  top: 363px;
+}
+
+.projetos {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+

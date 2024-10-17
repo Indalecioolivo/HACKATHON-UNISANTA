@@ -1,0 +1,65 @@
+/* Card-perfil */
+
+.cardUsuario-container img {
+    /* Circle */
+
+    width: 122px;
+    height: 122px;
+
+    border-radius: 300px;
+
+    /* Inside auto layout */
+    flex: none;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 42px;
+
+    position: absolute;
+    width: 364px;
+    height: 122px;
+    left: calc(50% - 364px/2);
+    top: 185px;
+}
+
+.text-input {
+    /* Text input container */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 155px;
+    height: 56px;
+
+
+    /* Inside auto layout */
+    flex: none;
+}
+
+.btn-card {
+    /* <Button>  */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 22px;
+
+    width: 200px;
+    height: 42px;
+
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+}
+
