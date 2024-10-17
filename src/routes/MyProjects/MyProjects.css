@@ -10,3 +10,10 @@
   top: 363px;
 }
 
+.projetos {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+

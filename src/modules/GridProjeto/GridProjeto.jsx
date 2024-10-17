@@ -5,7 +5,7 @@ export default function GridProjeto() {
     return (
       <section className="gridProjetos-container">
         <button>
-          <img src={ImageIcon} alt="" />
+        <img src={ImageIcon} alt="" />
           <h3>
             Adicione seu primeiro projeto
           </h3>

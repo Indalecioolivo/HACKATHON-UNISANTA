@@ -1,4 +1,4 @@
-.gridProjetos-container button {
+.gridProjetos-container {
     /* Vertical container */
 
     position: absolute;
@@ -9,6 +9,19 @@
 
     background: #E6E9F2;
     border-radius: 4px;
+}
+
+.gridProjetos-container button {
+    /* Group 1 */
+
+    position: absolute;
+    width: 270px;
+    height: 122px;
+    left: 60px;
+    top: calc(50% - 122px/2);
+    border: none;
+
+    background: inherit;
 }
 
 .gridProjetos-container h3 {
@@ -62,5 +75,5 @@
 .gridProjetos-container img {
     position: absolute;
     left: 40%;
-    top: 25%;
+    top: 3%;
 }
