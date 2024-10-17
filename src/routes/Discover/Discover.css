@@ -1,4 +1,5 @@
 .discover-container {
   height: calc(100% - 73px);
   border: 2px solid blue;
+  border-color: maroon;
 }

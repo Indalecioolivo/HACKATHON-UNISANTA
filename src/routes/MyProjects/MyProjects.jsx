@@ -1,9 +1,11 @@
 import "./MyProjects.css";
+import ModalAdcProjeto from "../../modules/ModalAdcProjeto/ModalAdcProjeto";
 
 export default function MyProjects() {
   return (
     <section className="myprojects-container">
-      <h1>my projects</h1>
+        <ModalAdcProjeto/>
     </section>
   );
+
 }
