@@ -79,7 +79,7 @@
 .to-cards .card-publi {
   width: 389px;
   height: 300px;
-  /* border: 1px solid green; */
+  cursor: pointer;
 }
 
 .to-cards .publi-img {

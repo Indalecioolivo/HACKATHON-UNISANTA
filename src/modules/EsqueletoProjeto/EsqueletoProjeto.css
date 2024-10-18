@@ -2,11 +2,78 @@
   /* <Skeleton> */
 
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
 
   width: 450px;
   height: 260px;
 
   background: rgba(230, 233, 242, 0.2);
   border-radius: 4px;
+}
+
+.esqueletoProjeto-container .img {
+  /* icon_edit */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  cursor: pointer;
+
+  gap: 8px;
+
+  padding: 1rem;
+
+  height: 50px;
+}
+
+.esqueletoProjeto-container .menu {
+  /* User Account Menu */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem 0px;
+  gap: 0.5rem;
+
+  width: 208px;
+  height: 104px;
+
+  /* Neutral Colors/Neutral-60 */
+  background: #fcfdff;
+  /* Modal */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.esqueletoProjeto-container .menu .btn {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+
+  background: inherit;
+
+  width: 13rem;
+  height: 2rem;
+
+  border: none;
+
+  /* [Orange P] Style Guide/Subtitle 1 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.15px;
+
+  /* Neutral Colors/Neutral-110 */
+  color: #515255;
+}
+
+.esqueletoProjeto-container .menu .btn:hover {
+  background-color: #ffeecc;
 }

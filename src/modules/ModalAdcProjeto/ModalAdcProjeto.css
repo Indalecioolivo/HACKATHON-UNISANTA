@@ -5,15 +5,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  top: 0;
 
-  background-color: rgba(00, 00,00 , 0.5);
+  z-index: 2;
+
+  background-color: rgba(00, 00, 00, 0.5);
 }
 
 .container-modal .modal {
   width: 60%;
   height: 70%;
 
-  background-color: #FEFEFE;
+  background-color: #fefefe;
 
   display: flex;
   flex-direction: column;
@@ -43,7 +47,7 @@
 .container-modal .modal .title-modal h1 {
   text-align: left;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -132,7 +136,7 @@
   width: 52.3rem;
   height: 1rem;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -142,6 +146,7 @@
 
   color: #515255;
 
+  cursor: pointer;
 }
 
 .modal .button-container .btn .salvar {
@@ -157,8 +162,9 @@
   background: #ff5522;
 
   border-radius: 4px;
+  cursor: pointer;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -167,11 +173,12 @@
   letter-spacing: 0.46px;
   text-transform: uppercase;
 
-  color: #FCFDFF;
+  color: #fcfdff;
 }
 
 .modal .button-container .btn .cancelar {
   /* Auto layout */
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -184,7 +191,7 @@
   background: rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;

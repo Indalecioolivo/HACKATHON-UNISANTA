@@ -1,4 +1,4 @@
-.modalEditarSucess-container {
+.modalAdcSucess-container {
     position: fixed;
     top: 0; 
     left: 0; 
@@ -10,7 +10,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modalEditarSucess-container .modal {
+.modalAdcSucess-container .modal {
     width: 351px;
     height: 242px;
     background-color: #FEFEFE;
@@ -40,15 +40,7 @@
     color: #515255;
 }
 
-.modal .img {
-
-    /* Sucesso B */
-    
-    display: flex;
-    justify-content: center;
-
-    height: 2.5rem;
-    width: 2.5rem;
+.modalAdcSucess-container .modal .img{
 
     /* Vertical container */
 
@@ -57,11 +49,8 @@
     /* Support Colors/Sucesso/sucess-110 */
     background: #118822;
     /* Neutral Colors/Neutral-60 */
-    border-radius: 30px;
-
-    border: 10px solid #118822;
-
-    padding: px solid #118822;
+    border: 0.961538px solid #118822;
+    border-radius: 9615.38px;
 }
 
 .voltar{

@@ -2,13 +2,16 @@ import "./ModalVisualizarProjeto.css";
 import UserPhoto from "../../assets/circle.png";
 import ProjectImage from "../../assets/projectImage.png";
 import X from "../../assets/fechar.png";
+import { HomeContext } from "../../context/HomeContext";
+import { useContext } from "react";
 
 export default function ModalVisualizarProjeto() {
+  const { handleModalVisualizarProjeto } = useContext(HomeContext);
   return (
     <section className="visualizarProjeto-container">
       <div className="modal">
         <div className="fechar">
-          <img src={X} alt="" />
+          <img src={X} alt="" onClick={() => handleModalVisualizarProjeto()} />
         </div>
         <div className="conteudo">
           <div className="modal-header">
