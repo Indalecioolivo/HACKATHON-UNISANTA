@@ -65,7 +65,7 @@
 
 .visualizarProjeto-container .modal .conteudo .profile {
   width: 25%;
-  height: 3,75rem;
+  height: 3, 75rem;
 
   display: flex;
   justify-content: left;
@@ -158,8 +158,4 @@
 .visualizarProjeto-container .modal .conteudo .modal-footer p {
   font-size: 1rem;
   text-align: justify;
-}
-
-.visualizarProjeto-container .modal .conteudo .modal-footer .download-link {
-  margin-top: 2rem;
 }

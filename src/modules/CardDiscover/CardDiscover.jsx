@@ -9,7 +9,7 @@ export default function CardDiscover() {
   const { handleModalVisualizarProjeto } = useContext(HomeContext);
   return (
     <div className="card-publi" onClick={() => handleModalVisualizarProjeto()}>
-      <img className="publi-img" src={ProjectImage} alt="" />
+      <img className="publi-img" src={ImgDiscover} alt="" />
       <p className="user-infos">
         <img className="user-photo" src={ProfileDiscover} alt="" />
         <p className="user-name">Bianca Martin • 02/24</p>

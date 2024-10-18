@@ -1,6 +1,7 @@
 import "./ModalVisualizarProjeto.css";
 import UserPhoto from "../../assets/circle.png";
 import ProjectImage from "../../assets/projectImage.png";
+import ImgDiscover from "../../assets/img-discover.png";
 import X from "../../assets/fechar.png";
 import { HomeContext } from "../../context/HomeContext";
 import { useContext } from "react";
@@ -29,7 +30,7 @@ export default function ModalVisualizarProjeto() {
             </div>
           </div>
           <img
-            src={ProjectImage}
+            src={location.pathname === "/discover" ? ImgDiscover : ProjectImage}
             alt="imagem do projeto"
             className="projectImage"
           />
