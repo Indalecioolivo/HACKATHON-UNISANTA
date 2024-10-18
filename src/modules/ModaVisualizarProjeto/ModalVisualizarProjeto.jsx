@@ -37,7 +37,7 @@ export default function ModalVisualizarProjeto() {
               para mostrar seus produtos. Tentamos redesenhar uma versão mais
               B2C e minimalista do nosso primeiro template de e-commerce.
             </p>
-            <p>
+            <p className="download-link">
               Download: <br />
               <a href="https://gumroad.com/products/wxCSL">
                 https://gumroad.com/products/wxCSL

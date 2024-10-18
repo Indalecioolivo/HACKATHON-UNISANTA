@@ -18,12 +18,14 @@ export default function MyProjects() {
   const { showModalAddProduct } = useContext(HomeContext);
   return (
     <section className="myprojects-container">
+
       {showModalAddProduct ? <ModalAdcProjeto /> : ""}
+
       {/* <ModalVisualizarProjeto/> */}
       {/* {<ModalExcluirPJT/>} */}
       {/* <ModalEditarPJT/> */}
       {/* <CadastroSucedido/> */}
-      <div className="usuario">
+      {/* <div className="usuario">
         <CardUsuario />
         <BuscadorTags />
       </div>
@@ -31,7 +33,7 @@ export default function MyProjects() {
         <GridProjeto />
         <EsqueletoProjeto />
         <EsqueletoProjeto />
-      </div>
+      </div> */}
     </section>
   );
 }

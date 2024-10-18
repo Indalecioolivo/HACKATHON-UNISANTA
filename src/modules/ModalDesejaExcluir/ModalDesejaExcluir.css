@@ -1,80 +1,129 @@
-html, body {
-    height: 100%;
-    margin: 0;
+.dsjExcluir-modal {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   width: auto;
+   background: rgba(0, 0, 0, 0.5);
 }
 
-.dsjexcluir-modal {
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    width: 100%;
-    height: 100%;
-    border: 5px solid rgb(213, 8, 8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+.dsjExcluir-modal .modal {
+   /* Modal delet */
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: flex-start;
+   padding: 2.5rem 2.55rem;
+   gap: 2rem 1rem;
+
+   width: 26.32rem;
+   height: 15.2rem;
+
+   background: #FCFDFF;
 }
 
-.dsjexcluir-modal .modal5 {
-    width: 351px;
-    height: 242px;
-    background-color: #FEFEFE;
+.dsjExcluir-modal .modal h1 {
+   /* Deseja Excluir? */
+   width: 16rem;
+   height: 1.5rem;
 
-    display: flex;
-    align-items:flex-start;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.5rem;
+   line-height: 1.5rem;
 
+   color: #515255;
 }
 
-.modal5 h1{
-    /* Deseja Excluir? */
- 
-    width: 255px;
-    height: 48px;
- 
- /* [Orange P] Style Guide/H5 */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
- /* or 100% */
-    text-align: center;
- 
-    color: #515255;
- 
- 
- /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
- 
- }
+.dsjExcluir-modal .modal p {
+   /* Label */
 
- .modal p{
-    
-    /* [Orange P] Style Guide/H5 */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    /* or 100% */
-    text-align: center;
-    
-    color: #515255;
-    
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    
- }
- 
+   width: 21rem;
+   height: 2rem;
 
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 1rem;
+   letter-spacing: 0.5px;
 
- 
+   color: #515255;
+}
+
+.dsjExcluir-modal .modal .btn {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   gap: 2rem;
+}
+
+.dsjExcluir-modal .modal .btn .excluir {
+   /* <Button>
+
+   /* Auto layout */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0.5rem 1.37rem;
+
+   width: 6.62rem;
+   height: 2.62rem;
+
+   background: #FF5522;
+   /* elevation/2 */
+   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+   border-radius: 0.25rem;
+
+   /* Text */
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1rem;
+   line-height: 1.62rem;
+   /* identical to box height, or 173% */
+   letter-spacing: 0.46px;
+   text-transform: uppercase;
+
+   color: #FFFFFF;
+   border: none;
+}
+
+.dsjExcluir-modal .modal .btn .cancelar {
+   /* <Button>
+
+   /* Auto layout */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0.5rem 1.37rem;
+
+   width: 6.62rem;
+   height: 2.62rem;
+
+   background: rgba(0, 0, 0, 0.12);
+   border-radius: 0.25rem;
+
+   /* Button */
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1rem;
+   line-height: 1.62rem;
+
+   text-align: center;
+   letter-spacing: 0.46px;
+   text-transform: uppercase;
+
+   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+   border-radius: 0.25rem;
+
+   color: rgba(0, 0, 0, 0.38);
+   border: none;
+}
