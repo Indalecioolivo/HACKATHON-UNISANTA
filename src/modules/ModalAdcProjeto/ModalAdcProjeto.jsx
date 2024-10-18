@@ -1,5 +1,4 @@
-
-import "./ModalAdcProjeto.css"
+import "./ModalAdcProjeto.css";
 import ImageIcon from "../../assets/collections.png";
 import "./ModalAdcProjeto.css";
 import GridProjeto from "../GridProjeto/GridProjeto";
@@ -8,15 +7,12 @@ export default function ModalAdcProjeto() {
   return (
     <section className="container-modal">
       <div className="modal">
-        <div className="adicionar">
+        <div className="title-modal">
           <h1>Adicionar Projeto</h1>
+          <p>Selecione o conteudo que você deseja fazer upload</p>
         </div>
-
         <div className="configuracoes">
-          <div className="selecionar">
-            <p>Selecione o conteúdo que você deseja fazer upload</p>
-          </div>
-          <GridProjeto />
+          <div className="selecionar">{/* <GridProjeto /> */}</div>
 
           <form action="" className="caixas-textos">
             <input type="text" placeholder="Título" />
@@ -29,22 +25,6 @@ export default function ModalAdcProjeto() {
             ></textarea>
           </form>
         </div>
-            <div className="adicionar-imagem">
-                <img src={ImageIcon} alt="" />
-                <h3>
-                    Adicione seu primeiro projeto
-                </h3>
-                <p>Compartilhe seu talento com milhares de pessoas</p>
-            </div>
-        </div>
-        <section className="button-container">
-          <p className="visualizar"> Visualizar publicação</p>
-
-          <div className="botoes">
-            <button class="salvar"> Salvar </button>
-            <button className="cancelar"> Cancelar </button>
-          </div>
-        </section>
       </div>
     </section>
   );

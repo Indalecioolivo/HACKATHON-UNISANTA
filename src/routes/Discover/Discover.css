@@ -67,14 +67,13 @@
   height: auto;
   padding: 32px;
 
-  /* border: 2px solid red; */
-
   display: flex;
   align-items: center;
   justify-content: left;
   flex-wrap: wrap;
-
   gap: 40px;
+
+  /* border: 2px solid red; */
 }
 
 .to-cards .card-publi {

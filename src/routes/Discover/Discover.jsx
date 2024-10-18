@@ -1,5 +1,6 @@
 import "./Discover.css";
 import CardDiscover from "../../modules/CardDiscover/CardDiscover";
+import ModalVisualizarProjeto from "../../modules/ModaVisualizarProjeto/ModalVisualizarProjeto";
 
 export default function Discover() {
   return (
@@ -24,6 +25,7 @@ export default function Discover() {
         <CardDiscover />
         <CardDiscover />
       </section>
+      {/* <ModalVisualizarProjeto /> */}
     </section>
   );
 }

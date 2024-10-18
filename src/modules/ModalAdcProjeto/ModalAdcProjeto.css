@@ -1,276 +1,257 @@
-/*.container-modal{
-    width: 100%;
-    height: 100%;
+.container-modal {
+  width: 100%;
+  height: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    background-color: rgba(00, 00,00 , 0.5);
+  position: absolute;
+  top: 0;
+
+  background-color: rgba(00, 00, 00, 0.5);
 }
 
 .container-modal .modal {
-    width: 890px;
-    height: 522px;
+  width: 60%;
+  height: 70%;
 
-    background-color: #FEFEFE;
+  background-color: #fefefe;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    padding: 20px;
+  border: 3px solid black;
 }
 
+.container-modal .modal .title-modal {
+  width: 85%;
+  height: 5rem;
 
-.container-modal .adicionar {
-    width: 826px;
-    height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
 
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  border: 2px solid blue;
 }
 
-.container-modal .adicionar h1 {
-    /* Adicionar projeto */
+.container-modal .modal .title-modal h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-
-    text-align: left;
-
-    /* [Orange P] Style Guide/H5 */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    /* identical to box height, or 100% */
-
-    color: #515255;
+  color: #515255;
 }
 
-.configuracoes {
-    /* Input form container */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 826px;
-    height: 336px;
+.container-modal .modal .title-modal p {
+  font-size: 16px;
+  text-align: left;
+  border: 1px solid black;
 }
 
-.selecionar {
-    /* Vertical container */
+.container-modal .modal .configuracoes {
+  width: 85%;
+  height: 60%;
 
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 8px;
-    isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width: 389px;
-    height: 336px;
-    
+  border: 3px solid green;
+}
 
-    text-align: center;
+.container-modal .modal .configuracoes .selecionar {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 8px;
+
+  text-align: center;
+
+  border: 1px solid black;
 }
 
 .selecionar p {
-    text-align: left;
-    justify-content: flex-start;
+  text-align: left;
+  justify-content: flex-start;
 }
 
 .caixas-textos {
-    /* Input form */
+  border: 1px solid black;
+  height: 100%;
+  width: 50%;
 
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-    width: 413px;
-    height: 336px;
-
-    /* position: absolute;
-    left: 413px;
-    top: 0px; */
+  gap: 16px;
 }
 
 .caixas-textos input {
-    /* Text input container */
+  /* Text input container */
 
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 3px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 3px;
 
-    width: 100%;
-    height: 56px;
+  width: 100%;
+  height: 56px;
 
-    padding: 9px;
+  padding: 9px;
 }
 
 .caixas-textos textarea {
-    /* Text input */
+  /* Text input */
 
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    padding: 16px 0px;
-    text-align: left;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0px;
+  text-align: left;
 
-    width: 100%;
-    height: 116px;
+  width: 100%;
+  height: 116px;
 
-    padding: 9px;
+  padding: 9px;
 }
 
 .salvar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 22px;
 
-    width: 101px;
-    height: 42px;
+  width: 101px;
+  height: 42px;
 
-    background: #FF5522;
+  background: #ff5522;
 
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 
-
-    color: white;
-    font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 
 .cancelar {
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 22px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 22px;
 
-    width: 124px;
-    height: 42px;
+  width: 124px;
+  height: 42px;
 
-    background: rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-
-
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .modal .button-container {
-    /* Button container */
+  /* Button container */
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 
-    width: 826px;
-    height: 74px;
+  width: 826px;
+  height: 74px;
 }
 
 .botoes {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 15px;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  /* gap: 15px; */
 }
 
 .botoes button {
-    border: none;
+  border: none;
 }
 
 .adicionar-imagem {
-    /* Container */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  /* Container */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    width: 389px;
-    height: 304px;
+  width: 389px;
+  height: 304px;
 
-    background: #E6E9F2;
-    border-radius: 4px;
+  background: #e6e9f2;
+  border-radius: 4px;
 }
 
 .adicionar-imagem h3 {
-    /* Adicione seu primeiro projeto */
-    display: flex;
-    justify-content: center;
+  /* Adicione seu primeiro projeto */
+  display: flex;
+  justify-content: center;
 
-    width: 223px;
-    height: 16px;
+  width: 223px;
+  height: 16px;
 
-    /* position: absolute;
+  /* position: absolute;
     left: calc(50% - 223px/2 - 21px);
     top: calc(50% - 16px/2 + 9px); */
 
-    /* [Orange P] Style Guide/Body 1 */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    /* identical to box height, or 100% */
-    letter-spacing: 0.5px;
+  /* [Orange P] Style Guide/Body 1 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.5px;
 
-    color: #303133;
+  color: #303133;
 
-    opacity: 0.6;
+  opacity: 0.6;
 
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .adicionar-imagem p {
-    /* Compartilhe seu talento com milhares de pessoas */
+  /* Compartilhe seu talento com milhares de pessoas */
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    /* [Orange P] Style Guide/Body 2 */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
-    /* or 100% */
-    letter-spacing: 0.25px;
+  /* [Orange P] Style Guide/Body 2 */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* or 100% */
+  letter-spacing: 0.25px;
 
-    color: #303133;
+  color: #303133;
 
-    opacity: 0.6;
+  opacity: 0.6;
 
-    text-align: left;
+  text-align: left;
 }
 
 .adicionar-imagem img {
-    /* position: absolute;
+  /* position: absolute;
     left: 40%;
     top: 3%; */
+  border: 2px solid;
 }
-    border: 2px solid;
-}
-
-.visualizar{
-    position: absolute;
-    left: 29%;
-    top: 68%;
-} */

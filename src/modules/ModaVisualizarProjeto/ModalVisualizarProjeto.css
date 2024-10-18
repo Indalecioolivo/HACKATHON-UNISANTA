@@ -2,148 +2,160 @@
   width: 100%;
   height: 100%;
 
-  border: 5px solid rgb(213, 8, 8);
+  /* border: 5px solid rgb(213, 8, 8); */
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-
+  position: absolute;
+  top: 0;
 
   background-color: rgba(00, 00, 00, 0.5);
 }
 
 .visualizarProjeto-container .modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 
-    /* display: flex; */
-    flex-direction: column;
-    justify-content: space-between;
+  width: 1042px;
+  height: 900px;
 
-    width: 1042px;
-    height: 900px;
-
-
-  /* width: 90%;
-    height: 85%; */
-
-
-    background-color: #FEFEFE;
-    border: 8px solid rgb(46, 29, 171);
-}
-
-.visualizarProjeto-container .conteudo {
-    padding-left: 40px;
-    padding-right: 40px;
-
-    display: flex;
-    flex-direction: column;
-
-    border: 3px solid #fec;
+  background-color: #fefefe;
+  /* border: 8px solid rgb(46, 29, 171); */
 }
 
 .visualizarProjeto-container .modal .fechar {
-    display: flex;
-    justify-content: flex-end;
-    border: 15px solid #FEFEFE;
+  width: 24px;
+  height: 24px;
+  margin: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  align-self: flex-end;
+  cursor: pointer;
+  /* border: 1px solid black; */
 }
 
-.modal .conteudo .modal-header {
-    display: flex;
-    border: 3px solid #444;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
+.visualizarProjeto-container .modal .conteudo {
+  height: calc(100% - 24px - 1rem);
+  padding-left: 40px;
+  padding-right: 40px;
 
-    border: 3px solid #a7c;
-    border-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  /* border: 3px solid black; */
 }
 
-.modal .conteudo .profile {
-    justify-content: flex-start;
-    height: inherit;
-    width: 23%;
-    border: none;
+.visualizarProjeto-container .modal .conteudo .modal-header {
+  width: 83%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-
-  /* Inside auto layout */
-  order: 0;
-
-  border: 3px solid #44e;
+  /* border: 3px solid red; */
 }
 
+.visualizarProjeto-container .modal .conteudo .profile {
+  width: 25%;
+  height: 60px;
 
-.modal .conteudo .modal-header h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 8px;
 
-    /* Ecommerce One Page */
-
-    /* [Orange P] Style Guide/H5 */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    /* identical to box height, or 100% */
-    text-align: center;
-    color: #303133;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-
-    border: 3px solid #44e;
+  /* border: 3px solid green; */
 }
 
-.modal .conteudo .modal-header .tags {
-    /* Frame 744 */
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 0px;
-    gap: 8px;
-
-    width: 23%;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    border: 3px solid #44e;
+.visualizarProjeto-container .modal .conteudo .profile img {
+  display: inline-block;
+  height: 40px;
+  /* border: 1px solid black; */
 }
 
-.modal .conteudo .modal-header .tags p {
+.visualizarProjeto-container .modal .conteudo .modal-header .user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
 
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px;
-
-    width: 37px;
-    height: 32px;
-
-    background: rgba(0, 0, 0, 0.08);
-    border-radius: 100px;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  /* border: 1px solid black; */
 }
 
-.modal .conteudo .projectImage {
+.visualizarProjeto-container .modal .conteudo .modal-header .user-name p {
+  width: 100%;
+  height: 20px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh; /* Para centralizar verticalmente na tela inteira */
+  font-size: 16px;
+  text-align: left;
+
+  /* border: 1px solid black; */
 }
 
+.visualizarProjeto-container .modal .conteudo .modal-header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+
+  color: #303133;
+
+  /* border: 3px solid #44e; */
+}
+
+.visualizarProjeto-container .modal .conteudo .modal-header .tags {
+  width: 23%;
+
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 8px;
+
+  /* border: 3px solid #44e; */
+}
+
+.visualizarProjeto-container .modal .conteudo .modal-header .tags p {
+  width: 46px;
+  height: 32px;
+
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 13px;
+
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.visualizarProjeto-container .modal .conteudo .projectImage {
+  width: 83%;
+}
+
+.visualizarProjeto-container .modal .conteudo .modal-footer {
+  height: auto;
+  width: 83%;
+  margin-top: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.visualizarProjeto-container .modal .conteudo .modal-footer p {
+  font-size: 16px;
+  text-align: justify;
+}

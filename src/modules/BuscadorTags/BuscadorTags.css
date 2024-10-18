@@ -1,13 +1,17 @@
-.buscarTags-container input {
-    /* display: flex;
-    justify-content: center; */
-    text-align: left;
+.buscarTags-container {
+  height: 6rem;
+  width: 100%;
+  padding-left: 32px;
 
-    padding: 8px;
-
-    width: 513px;
-    height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
 }
 
+.buscarTags-container input {
+  width: 513px;
+  height: 56px;
 
-
+  padding: 8px;
+}

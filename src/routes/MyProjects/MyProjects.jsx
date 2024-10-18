@@ -12,39 +12,23 @@ import GridProjeto from "../../modules/GridProjeto/GridProjeto";
 import EsqueletoProjeto from "../../modules/EsqueletoProjeto/EsqueletoProjeto";
 import CadastroSucedido from "../../modules/CadastroSucedido/CadastroSucedido";
 
-
-
 export default function MyProjects() {
   return (
     <section className="myprojects-container">
-
-      {/* <ModalAdcProjeto/> */}
-
+      <ModalAdcProjeto />
       {/* <ModalVisualizarProjeto/> */}
-
       {/* {<ModalExcluirPJT/>} */}
-
       {/* <ModalEditarPJT/> */}
-
       {/* <CadastroSucedido/> */}
-
       <div className="usuario">
-        <CardUsuario/>
+        <CardUsuario />
+        <BuscadorTags />
       </div>
-
-      <div className="buscador">
-        <h2>Meus Projetos</h2>
-        <BuscadorTags/>
-      </div>
-
-      
       <div className="projetos">
-        <GridProjeto/>
-        <EsqueletoProjeto/>
-        <EsqueletoProjeto/>
+        <GridProjeto />
+        <EsqueletoProjeto />
+        <EsqueletoProjeto />
       </div>
-
     </section>
   );
-
 }
