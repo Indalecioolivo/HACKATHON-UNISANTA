@@ -1,4 +1,4 @@
-.container-modal{
+/*.container-modal{
     width: 100%;
     height: 100%;
 
@@ -27,10 +27,8 @@
 
 .modal h2 {
     /* Adicionar projeto */
-
-    /* position: absolute;
-    left: 28%;
-    top: 26%; */
+    left: 29%;
+    top: 32%;
 
     display: flex;
     align-items: center;
@@ -69,6 +67,7 @@
 
     width: 389px;
     height: 336px;
+    
 
     /* position: absolute;
     left: 0px;
@@ -145,9 +144,9 @@
 
     flex: none;
 
-    /* position: absolute;
+    position: absolute;
     left: 28%;
-    top: 71%; */
+    top: 71%;
 
     color: white;
     font-weight: bold;
@@ -172,9 +171,9 @@
     order: 1;
     flex-grow: 0;
 
-    /* position: absolute;
+    position: absolute;
     left: 34%;
-    top: 71%; */
+    top: 71%;
 }
 
 .button-container {
@@ -194,3 +193,9 @@
 
     border: 2px solid;
 }
+
+.visualizar{
+    position: absolute;
+    left: 29%;
+    top: 68%;
+} */
