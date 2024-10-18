@@ -16,11 +16,11 @@ export default function MyProjects() {
 
       {/* <ModalAdcProjeto/> */}
 
-      <ModalVisualizarProjeto/>
+      {/* <ModalVisualizarProjeto/> */}
 
       {/* <CadastroSucedido/> */}
 
-      {/* <div className="usuario">
+      <div className="usuario">
         <CardUsuario/>
       </div>
 
@@ -32,7 +32,8 @@ export default function MyProjects() {
       <div className="projetos">
         <GridProjeto/>
         <EsqueletoProjeto/>
-      </div> */}
+        <EsqueletoProjeto/>
+      </div>
 
     </section>
   );

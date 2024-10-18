@@ -1,5 +1,5 @@
 import "./ModalAdcProjeto.css"
-import GridProjeto from "../GridProjeto/GridProjeto";
+import ImageIcon from "../../assets/collections.png";
 
 export default function ModalAdcProjeto(){
     return (
@@ -17,7 +17,13 @@ export default function ModalAdcProjeto(){
                             Selecione o conteúdo que você deseja fazer upload
                         </p>
 
-                        <GridProjeto/>
+                        <div className="adicionar-imagem">
+                            <img src={ImageIcon} alt="" />
+                            <h3>
+                                Adicione seu primeiro projeto
+                            </h3>
+                            <p>Compartilhe seu talento com milhares de pessoas</p>
+                        </div>
                     </div>
 
                     <form action="" className="caixas-textos">

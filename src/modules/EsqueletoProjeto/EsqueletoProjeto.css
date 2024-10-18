@@ -1,8 +1,11 @@
 .esqueletoProjeto-container {
   /* <Skeleton> */
 
-  width: 390px;
-  height: 258px;
+  display: flex;
+  justify-content: center;
+
+  width: 450px;
+  height: 260px;
 
   background: rgba(230, 233, 242, 0.2);
   border-radius: 4px;

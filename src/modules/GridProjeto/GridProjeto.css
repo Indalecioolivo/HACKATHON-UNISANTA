@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
 
-    width: 389px;
-    height: 258px;
+    width: 450px;
+    height: 260px;
 
     /* Trabalham juntos>
     position: absolute;
@@ -20,6 +20,8 @@
 
 .gridProjetos-container h3 {
     /* Adicione seu primeiro projeto */
+    display: flex;
+    justify-content: center;
 
     width: 223px;
     height: 16px;
