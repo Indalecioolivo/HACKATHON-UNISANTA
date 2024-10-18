@@ -1,3 +1,6 @@
+
+import "./ModalAdcProjeto.css"
+import ImageIcon from "../../assets/collections.png";
 import "./ModalAdcProjeto.css";
 import GridProjeto from "../GridProjeto/GridProjeto";
 
@@ -26,7 +29,14 @@ export default function ModalAdcProjeto() {
             ></textarea>
           </form>
         </div>
-
+            <div className="adicionar-imagem">
+                <img src={ImageIcon} alt="" />
+                <h3>
+                    Adicione seu primeiro projeto
+                </h3>
+                <p>Compartilhe seu talento com milhares de pessoas</p>
+            </div>
+        </div>
         <section className="button-container">
           <p className="visualizar"> Visualizar publicação</p>
 

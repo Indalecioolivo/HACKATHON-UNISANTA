@@ -1,9 +1,12 @@
 .buscarTags-container input {
-    position: absolute;
+    /* display: flex;
+    justify-content: center; */
+    text-align: left;
+
+    padding: 8px;
+
     width: 513px;
     height: 56px;
-    left: 32px;
-    top: 399px;
 }
 
 

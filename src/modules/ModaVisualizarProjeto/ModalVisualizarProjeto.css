@@ -4,48 +4,67 @@
 
   border: 5px solid rgb(213, 8, 8);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
 
   background-color: rgba(00, 00, 00, 0.5);
 }
 
 .visualizarProjeto-container .modal {
-  width: 1042px;
-  height: 900px;
+
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 1042px;
+    height: 900px;
+
 
   /* width: 90%;
     height: 85%; */
 
-  background-color: #fefefe;
-  border: 8px solid rgb(46, 29, 171);
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    background-color: #FEFEFE;
+    border: 8px solid rgb(46, 29, 171);
+}
 
-  padding: 50px;
+.visualizarProjeto-container .conteudo {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 3px solid #fec;
 }
 
 .visualizarProjeto-container .modal .fechar {
-  display: flex;
-  align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    border: 15px solid #FEFEFE;
 }
 
-.modal .modal-header {
-  display: flex;
-  border: 3px solid #444;
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
+.modal .conteudo .modal-header {
+    display: flex;
+    border: 3px solid #444;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 3px solid #a7c;
+    border-bottom: 90px;
 }
 
-.modal .profile {
-  justify-content: flex-start;
-  height: inherit;
-  width: 23%;
-  border: none;
+.modal .conteudo .profile {
+    justify-content: flex-start;
+    height: inherit;
+    width: 23%;
+    border: none;
+
 
   /* Inside auto layout */
   order: 0;
@@ -53,69 +72,78 @@
   border: 3px solid #44e;
 }
 
-.modal .modal-header h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  /* Ecommerce One Page */
+.modal .conteudo .modal-header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  /* [Orange P] Style Guide/H5 */
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 24px;
-  /* identical to box height, or 100% */
-  text-align: center;
-  color: #303133;
+    /* Ecommerce One Page */
 
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+    /* [Orange P] Style Guide/H5 */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #303133;
 
-  border: 3px solid #44e;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    border: 3px solid #44e;
 }
 
-.modal .modal-header .tags {
-  /* Frame 744 */
+.modal .conteudo .modal-header .tags {
+    /* Frame 744 */
 
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 0px;
-  gap: 8px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px;
+    gap: 8px;
 
-  width: 23%;
+    width: 23%;
 
-  /* Inside auto layout */
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  border: 3px solid #44e;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    border: 3px solid #44e;
 }
 
-.modal .modal-header .tags p {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px;
+.modal .conteudo .modal-header .tags p {
 
-  width: 37px;
-  height: 32px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
 
-  background: rgba(0, 0, 0, 0.08);
-  border-radius: 100px;
+    width: 37px;
+    height: 32px;
 
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 100px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.modal .projectImage {
+.modal .conteudo .projectImage {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Para centralizar verticalmente na tela inteira */
 }
+

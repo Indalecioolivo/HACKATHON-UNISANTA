@@ -26,12 +26,9 @@ export default function MyProjects() {
 
       {/* <ModalEditarPJT/> */}
 
-
-
-
       {/* <CadastroSucedido/> */}
 
-      {/* <div className="usuario">
+      <div className="usuario">
         <CardUsuario/>
       </div>
 
@@ -44,7 +41,8 @@ export default function MyProjects() {
       <div className="projetos">
         <GridProjeto/>
         <EsqueletoProjeto/>
-      </div> */}
+        <EsqueletoProjeto/>
+      </div>
 
     </section>
   );

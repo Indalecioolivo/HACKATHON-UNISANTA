@@ -7,7 +7,7 @@ export default function CardUsuario() {
         <div className="profile">
             <img src={CardImage} alt="card-profile-image"/>
             <div className="text-input">
-                <div>
+                <div className="letters">
                     <h1>Camila Soares</h1>
                     <h3>Brasil</h3>
                 </div>
