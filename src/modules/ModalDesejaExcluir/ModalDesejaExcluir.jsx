@@ -1,16 +1,15 @@
 import "./ModalDesejaExcluir.css";
-import Sucesso from "../../assets/sucesso.png"
 
-export default function DesejaExcluirPJT(){
+export default function ModalDesejaExcluir(){
     return(
    
-    <section className="dsjexcluir-modal">
-        <div className="modal5">
+    <section className="dsjExcluir-modal">
+        <div className="modal">
             <h1> Deseja Excluir?</h1>
-            <p> Se você prosseguir irá excluir o projeto do seu portfólio. </p>
-            <div className="botoes"> 
+            <p> Se você prosseguir irá excluir o projeto do seu portfólio.</p>
+            <div className="btn"> 
                 <button className="excluir">Excluir</button>
-                <button className="cancel">Cancelar</button>
+                <button className="cancelar">Cancelar</button>
             </div>
         </div>
     </section>

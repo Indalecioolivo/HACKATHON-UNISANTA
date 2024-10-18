@@ -6,40 +6,44 @@
   align-items: center;
   justify-content: center;
 
-  position: absolute;
-  top: 0;
-
-  background-color: rgba(00, 00, 00, 0.5);
+  background-color: rgba(00, 00,00 , 0.5);
 }
 
 .container-modal .modal {
   width: 60%;
   height: 70%;
 
-  background-color: #fefefe;
+  background-color: #FEFEFE;
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
-  border: 3px solid black;
+  padding: 2rem;
 }
 
 .container-modal .modal .title-modal {
-  width: 85%;
-  height: 5rem;
+  width: 100%;
+  height: 3.5rem;
 
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: space-around;
-
-  border: 2px solid blue;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.container-modal .modal .title-modal h1 {
+/* .container-modal .modal .title-modal h1 {
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  color: #515255;
+} */
+
+.container-modal .modal .title-modal h1 {
+  text-align: left;
+
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -47,26 +51,21 @@
   color: #515255;
 }
 
-.container-modal .modal .title-modal p {
-  font-size: 16px;
-  text-align: left;
-  border: 1px solid black;
-}
-
 .container-modal .modal .configuracoes {
-  width: 85%;
-  height: 60%;
+  width: 100%;
+  height: 65%;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
-  border: 3px solid green;
+  /* border: 4px solid #0b0; */
 }
 
 .container-modal .modal .configuracoes .selecionar {
   width: 50%;
   height: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -74,90 +73,127 @@
 
   text-align: center;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
-.selecionar p {
+.modal .configuracoes .selecionar p {
+  font-size: 1rem;
   text-align: left;
   justify-content: flex-start;
 }
 
-.caixas-textos {
-  border: 1px solid black;
+.modal .formulario {
   height: 100%;
   width: 50%;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 
   gap: 16px;
+
+  /* border: 1px solid black; */
 }
 
-.caixas-textos input {
-  /* Text input container */
-
-  /* Auto layout */
+.modal .formulario input {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 3px;
 
   width: 100%;
-  height: 56px;
+  height: 3.5rem;
 
-  padding: 9px;
+  padding: 0.5rem;
 }
 
-.caixas-textos textarea {
+.modal .formulario textarea {
   /* Text input */
 
   /* Auto layout */
   display: flex;
   flex-direction: row;
-  padding: 16px 0px;
+  padding: 1rem 0px;
   text-align: left;
 
   width: 100%;
-  height: 116px;
+  height: 7.25rem;
 
-  padding: 9px;
+  padding: 0.5rem;
+
+  resize: none;
 }
 
-.salvar {
+.modal .button-container .visualizar {
+  /* Label */
+  display: flex;
+  justify-content: flex-start;
+
+  width: 52.3rem;
+  height: 1rem;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+
+  letter-spacing: 0.15px;
+
+  color: #515255;
+
+}
+
+.modal .button-container .btn .salvar {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 8px 22px;
+  padding: 0.5rem 1.3rem;
 
-  width: 101px;
-  height: 42px;
+  width: 7.75rem;
+  height: 2.62rem;
 
   background: #ff5522;
 
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14),
-    0px 3px 1px -2px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  color: white;
-  font-weight: bold;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+
+  color: #FCFDFF;
 }
 
-.cancelar {
+.modal .button-container .btn .cancelar {
   /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 8px 22px;
+  padding: 0.5rem 1.3rem;
 
-  width: 124px;
-  height: 42px;
+  width: 7.75rem;
+  height: 2.62rem;
 
   background: rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+
+  color: rgba(0, 0, 0, 0.38);
 }
 
 .modal .button-container {
@@ -172,86 +208,13 @@
   height: 74px;
 }
 
-.botoes {
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  /* align-items: center; */
-  /* gap: 15px; */
+.modal .button-container .btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
 }
 
-.botoes button {
+.modal .button-container .btn button {
   border: none;
-}
-
-.adicionar-imagem {
-  /* Container */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: 389px;
-  height: 304px;
-
-  background: #e6e9f2;
-  border-radius: 4px;
-}
-
-.adicionar-imagem h3 {
-  /* Adicione seu primeiro projeto */
-  display: flex;
-  justify-content: center;
-
-  width: 223px;
-  height: 16px;
-
-  /* position: absolute;
-    left: calc(50% - 223px/2 - 21px);
-    top: calc(50% - 16px/2 + 9px); */
-
-  /* [Orange P] Style Guide/Body 1 */
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  /* identical to box height, or 100% */
-  letter-spacing: 0.5px;
-
-  color: #303133;
-
-  opacity: 0.6;
-
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.adicionar-imagem p {
-  /* Compartilhe seu talento com milhares de pessoas */
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* [Orange P] Style Guide/Body 2 */
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  /* or 100% */
-  letter-spacing: 0.25px;
-
-  color: #303133;
-
-  opacity: 0.6;
-
-  text-align: left;
-}
-
-.adicionar-imagem img {
-  /* position: absolute;
-    left: 40%;
-    top: 3%; */
-  border: 2px solid;
 }
