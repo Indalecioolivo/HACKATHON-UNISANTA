@@ -11,11 +11,14 @@ import CardUsuario from "../../modules/CardUsuario/CardUsuario";
 import GridProjeto from "../../modules/GridProjeto/GridProjeto";
 import EsqueletoProjeto from "../../modules/EsqueletoProjeto/EsqueletoProjeto";
 import CadastroSucedido from "../../modules/CadastroSucedido/CadastroSucedido";
+import { HomeContext } from "../../context/HomeContext";
+import { useContext } from "react";
 
 export default function MyProjects() {
+  const { showModalAddProduct } = useContext(HomeContext);
   return (
     <section className="myprojects-container">
-      {/* <ModalAdcProjeto /> */}
+      {showModalAddProduct ? <ModalAdcProjeto /> : ""}
       {/* <ModalVisualizarProjeto/> */}
       {/* {<ModalExcluirPJT/>} */}
       {/* <ModalEditarPJT/> */}

@@ -12,15 +12,15 @@ export default function Login() {
   async function loadUser() {
     try {
       const response = await api.get("/users");
-      console.log(response);
+      console.log(response.data);
     } catch (error) {
       console.log(error);
     }
   }
 
-  // useEffect(() => {
-  //   loadUser();
-  // }, []);
+  useEffect(() => {
+    loadUser();
+  }, []);
 
   return (
     <div className="login-container">
