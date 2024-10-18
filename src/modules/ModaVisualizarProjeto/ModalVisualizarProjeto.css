@@ -20,16 +20,16 @@
   align-items: center;
   justify-content: flex-start;
 
-  width: 1042px;
-  height: 900px;
+  width: 60rem;
+  height: 52rem;
 
   background-color: #fefefe;
   /* border: 8px solid rgb(46, 29, 171); */
 }
 
 .visualizarProjeto-container .modal .fechar {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   margin: 1rem;
 
   display: flex;
@@ -42,9 +42,9 @@
 }
 
 .visualizarProjeto-container .modal .conteudo {
-  height: calc(100% - 24px - 1rem);
-  padding-left: 40px;
-  padding-right: 40px;
+  height: calc(100% - 1.5rem- 1rem);
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@
 }
 
 .visualizarProjeto-container .modal .conteudo .modal-header {
-  width: 83%;
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -65,19 +65,19 @@
 
 .visualizarProjeto-container .modal .conteudo .profile {
   width: 25%;
-  height: 60px;
+  height: 3,75rem;
 
   display: flex;
   justify-content: left;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
 
   /* border: 3px solid green; */
 }
 
 .visualizarProjeto-container .modal .conteudo .profile img {
   display: inline-block;
-  height: 40px;
+  height: 2.5rem;
   /* border: 1px solid black; */
 }
 
@@ -92,9 +92,9 @@
 
 .visualizarProjeto-container .modal .conteudo .modal-header .user-name p {
   width: 100%;
-  height: 20px;
+  height: 1.2rem;
 
-  font-size: 16px;
+  font-size: 1rem;
   text-align: left;
 
   /* border: 1px solid black; */
@@ -107,7 +107,7 @@
 
   font-family: "Roboto";
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
 
   color: #303133;
 
@@ -120,14 +120,14 @@
   display: flex;
   align-items: center;
   justify-content: right;
-  gap: 8px;
+  gap: 1rem;
 
   /* border: 3px solid #44e; */
 }
 
 .visualizarProjeto-container .modal .conteudo .modal-header .tags p {
-  width: 46px;
-  height: 32px;
+  width: 2.8rem;
+  height: 2rem;
 
   border-radius: 1rem;
 
@@ -135,7 +135,7 @@
   align-items: center;
   justify-content: center;
 
-  font-size: 13px;
+  font-size: 0.8rem;
 
   background: rgba(0, 0, 0, 0.08);
 }
@@ -156,6 +156,10 @@
   align-items: flex-start;
 }
 .visualizarProjeto-container .modal .conteudo .modal-footer p {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: justify;
+}
+
+.visualizarProjeto-container .modal .conteudo .modal-footer .download-link {
+  margin-top: 2rem;
 }

@@ -15,12 +15,13 @@ import CadastroSucedido from "../../modules/CadastroSucedido/CadastroSucedido";
 export default function MyProjects() {
   return (
     <section className="myprojects-container">
+      <ModalDesejaExcluir/>
       {/* <ModalAdcProjeto /> */}
       {/* <ModalVisualizarProjeto/> */}
       {/* {<ModalExcluirPJT/>} */}
       {/* <ModalEditarPJT/> */}
       {/* <CadastroSucedido/> */}
-      <div className="usuario">
+      {/* <div className="usuario">
         <CardUsuario />
         <BuscadorTags />
       </div>
@@ -28,7 +29,7 @@ export default function MyProjects() {
         <GridProjeto />
         <EsqueletoProjeto />
         <EsqueletoProjeto />
-      </div>
+      </div> */}
     </section>
   );
 }
