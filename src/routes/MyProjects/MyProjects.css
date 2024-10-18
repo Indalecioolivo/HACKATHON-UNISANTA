@@ -1,22 +1,23 @@
-.myprojects-container {
+/*.myprojects-container { */
   /* display: flex; */
-  height: calc(100% - 73px);
+ /* height: calc(100% - 73px);*/
   /* flex-direction: column;
   justify-content: center; */
 
-  /* border: 5px solid; */
-}
+  /* border: 5px solid; }*/
+
 
 .usuario {
   display: flex;
 }
 
 .myprojects-container h2 {
+
   position: absolute;
   height: 10px;
   left: 32px;
   top: 363px;
-}
+}*/
 
 .buscador {
   border: 3px solid #0e0;

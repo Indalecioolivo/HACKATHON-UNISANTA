@@ -16,9 +16,9 @@ export default function ModalAdcProjeto(){
                         <p>
                             Selecione o conteúdo que você deseja fazer upload
                         </p>
-
+                        </div>  
                         <GridProjeto/>
-                    </div>
+                   
 
                     <form action="" className="caixas-textos">
                         <input type="text" placeholder="Título"/>

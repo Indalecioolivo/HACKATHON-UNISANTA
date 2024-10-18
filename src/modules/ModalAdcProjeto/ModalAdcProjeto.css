@@ -1,4 +1,4 @@
-.container-modal{
+/*.container-modal{
     width: 100%;
     height: 100%;
 
@@ -25,9 +25,11 @@
     padding: 15px;
 }
 
+
 .container-modal .adicionar {
     width: 826px;
     height: 24px;
+
 
     display: flex;
     align-items: center;
@@ -77,6 +79,7 @@
 
     width: 389px;
     height: 336px;
+    
 
     text-align: center;
 
@@ -151,6 +154,7 @@
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 
+
     color: white;
     font-weight: bold;
 }
@@ -168,6 +172,8 @@
 
     background: rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+
+
 }
 
 .button-container {
@@ -187,3 +193,9 @@
 
     border: 2px solid;
 }
+
+.visualizar{
+    position: absolute;
+    left: 29%;
+    top: 68%;
+} */
