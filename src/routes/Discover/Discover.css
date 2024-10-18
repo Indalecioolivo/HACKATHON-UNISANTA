@@ -1,30 +1,40 @@
 .discover-container {
   height: calc(100% - 73px);
-  border: 2px solid blue;
+  /* border: 2px solid purple; */
+  overflow-x: hidden;
 }
 
-.discover-container .div-text{
+.discover-container .div-text {
   height: 50%;
   width: 100%;
-  border: 2px solid blue;
+  /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
 
-.discover-container .div-imgs{
-  height: 50%;
-  width: 100%;
-  padding: 32px;
-  border: 2px solid blue;
+.discover-container .div-text .discover-text {
+  width: 744px;
+  height: 102px;
+  left: calc(50% - 744px / 2);
+  top: 185px;
+
+  /* border: 2px solid blue; */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 34px;
+  color: #222244;
+
   display: flex;
-  align-items: left;
-  justify-content: left;
-  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.25px;
 }
 
-.discover-container fieldset{
+.discover-container .div-text fieldset {
   display: flex;
   align-items: left;
   justify-content: left;
@@ -33,79 +43,81 @@
   margin-left: 32px;
   border-radius: 5px;
   padding: 3px;
-  color:#515255
+  color: #515255;
 }
 
-.discover-container legend{
+.discover-container .div-text fieldset legend {
   padding: 5px;
 }
 
-.discover-container input{
-flex-direction: column;
-align-items: flex-start;
-border: none;
-outline: none;
+.discover-container .div-text fieldset input {
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
+  outline: none;
 
-margin-left: 5px;
-font-size: 16px;
-width: 723px;
-height: 56px;
-left: 32px;
-top: 407px;
+  margin-left: 5px;
+  font-size: 16px;
+  width: 723px;
+  height: 56px;
 }
 
-.discover-text {
-width: 744px;
-height: 102px;
-left: calc(50% - 744px/2);
-top: 185px;
+.to-cards {
+  max-width: 100%;
+  height: auto;
+  padding: 32px;
 
-border: 2px solid blue;
+  /* border: 2px solid red; */
 
-font-style: normal;
-font-weight: 400;
-font-size: 34px;
-line-height: 34px;
-color: #222244;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.25px;
+  gap: 40px;
 }
 
-.discover-img {
-width: 389px;
-height: 258px;
-
-border-radius: 4px;
-border: 2px solid blue;
+.to-cards .card-publi {
+  width: 389px;
+  height: 300px;
+  /* border: 1px solid green; */
 }
 
-.discover-profile{
+.to-cards .publi-img {
+  width: 389px;
+  height: 258px;
+
+  border-radius: 4px;
+  /* border: 1px solid blue; */
+}
+
+.to-cards .user-infos {
+  width: 389px;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  /* border: 1px solid purple; */
+}
+
+.to-cards .user-infos .user-photo {
   width: 24px;
   height: 24px;
   border-radius: 200px;
 }
 
-.discover-profile-text {
-padding: 5px;
+.to-cards .user-infos .user-name {
+  padding: 5px;
 
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 16px;
-letter-spacing: 0.15px;
-color: #515255;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.15px;
+  color: #515255;
 
-display: flex;
-align-items: center;
-text-align: center;
-}
-
-.discover-profile-info{
   display: flex;
-  align-items: left;
-  justify-content: left;
-  flex-direction: row;
+  align-items: center;
+  text-align: center;
 }
