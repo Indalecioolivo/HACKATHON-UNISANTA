@@ -15,7 +15,7 @@ import CadastroSucedido from "../../modules/CadastroSucedido/CadastroSucedido";
 export default function MyProjects() {
   return (
     <section className="myprojects-container">
-      <ModalAdcProjeto />
+      {/* <ModalAdcProjeto /> */}
       {/* <ModalVisualizarProjeto/> */}
       {/* {<ModalExcluirPJT/>} */}
       {/* <ModalEditarPJT/> */}

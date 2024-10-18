@@ -8,6 +8,7 @@ export const HomeProvider = ({ children }) => {
   function setModule() {
     toggleModule ? setToggleModule(false) : setToggleModule(true);
   }
+
   return (
     <HomeContext.Provider value={{ toggleModule, setModule }}>
       {children}
