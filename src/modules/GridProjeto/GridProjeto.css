@@ -48,13 +48,11 @@
 .gridProjetos-container p {
     /* Compartilhe seu talento com milhares de pessoas */
 
-    width: 270px;
-    height: 28px;
 
-    /* position: absolute;
-    left: calc(50% - 270px/2 + 0.5px);
-    top: calc(50% - 28px/2 + 47px); */
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     /* [Orange P] Style Guide/Body 2 */
     font-family: 'Roboto';
     font-style: normal;

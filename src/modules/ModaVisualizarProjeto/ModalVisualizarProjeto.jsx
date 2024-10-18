@@ -1,11 +1,15 @@
 import "./ModalVisualizarProjeto.css";
 import UserPhoto from "../../assets/circle.png";
 import ProjectImage from "../../assets/projectImage.png";
+import X from "../../assets/fechar.png";
 
 export default function ModalVisualizarProjeto(){
     return (
         <section className="visualizarProjeto-container">
             <div className="modal">
+                <div className="fechar">
+                    <img src={X} alt="" />
+                </div>
                 <div className="modal-header">
                     <div className="profile">
                         <img src={UserPhoto} alt="" />
@@ -13,15 +17,14 @@ export default function ModalVisualizarProjeto(){
                             <h3>Camila Soares</h3>
                             <p>12/12</p>
                         </div>
+                    </div>
+                    <h1>
+                        Ecommerce One Page
+                    </h1>
 
-                        <h1>
-                            Ecommerce One Page
-                        </h1>
-
-                        <div className="tags">
-                            <p>UX</p>
-                            <p>Web</p>
-                        </div>
+                    <div className="tags">
+                        <p>UX</p>
+                        <p>Web</p>
                     </div>
                 </div>
 

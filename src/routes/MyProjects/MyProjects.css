@@ -7,6 +7,10 @@
   /* border: 5px solid; */
 }
 
+.usuario {
+  display: flex;
+}
+
 .myprojects-container h2 {
   position: absolute;
   height: 10px;
@@ -14,13 +18,17 @@
   top: 363px;
 }
 
-/* .projetos {
+.buscador {
+  border: 3px solid #0e0;
+}
+
+.projetos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 16px; definir espaçamento
+  gap: 16px;
 
   border: 5px solid;
-} */
+}
 
 
