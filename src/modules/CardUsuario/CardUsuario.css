@@ -14,15 +14,14 @@
 
 .profile {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     gap: 42px;
 
-    position: absolute;
     width: 364px;
     height: 122px;
-    left: calc(50% - 364px/2);
-    top: 185px;
+
+    border: 3px solid #eee;
 }
 
 .text-input {
@@ -52,14 +51,7 @@
     align-items: center;
     padding: 8px 22px;
 
-    width: 200px;
-    height: 42px;
-
     background: rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
 }
 

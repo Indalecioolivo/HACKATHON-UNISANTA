@@ -25,23 +25,33 @@
     padding: 15px;
 }
 
-.modal h2 {
-    /* Adicionar projeto */
-    left: 29%;
-    top: 32%;
+
+.container-modal .adicionar {
+    width: 826px;
+    height: 24px;
+
 
     display: flex;
     align-items: center;
     justify-content: center;
 
+    border: 3px solid #e00;
+}
+
+.container-modal .adicionar h1 {
+    /* Adicionar projeto */
+
+    text-align: left;
+
     /* [Orange P] Style Guide/H5 */
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     /* identical to box height, or 100% */
 
-    color: #000000;
+    color: #515255;
 }
 
 .configuracoes {
@@ -51,6 +61,8 @@
     justify-content: space-between;
     width: 826px;
     height: 336px;
+
+    border: 3px solid #0ee;
 }
 
 .selecionar{
@@ -68,6 +80,8 @@
     width: 389px;
     height: 336px;
     
+
+    text-align: center;
 
     /* position: absolute;
     left: 0px;
@@ -116,7 +130,6 @@
     /* Auto layout */
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     padding: 16px 0px;
     text-align: left;
 
@@ -142,12 +155,6 @@
     border-radius: 4px;
 
 
-    flex: none;
-
-    position: absolute;
-    left: 28%;
-    top: 71%;
-
     color: white;
     font-weight: bold;
 }
@@ -166,14 +173,7 @@
     background: rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 
-    position: absolute;
-    left: 34%;
-    top: 71%;
 }
 
 .button-container {

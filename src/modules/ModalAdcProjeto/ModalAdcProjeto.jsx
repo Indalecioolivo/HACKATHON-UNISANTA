@@ -5,9 +5,13 @@ export default function ModalAdcProjeto(){
     return (
         <section className="container-modal">
             <div className="modal">
-                <h2>Adicionar projeto</h2>
+
+                <div className="adicionar">
+                    <h1>Adicionar Projeto</h1>
+                </div>
 
                 <div className="configuracoes">
+                    
                     <div className="selecionar">
                         <p>
                             Selecione o conteúdo que você deseja fazer upload
