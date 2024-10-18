@@ -1,0 +1,132 @@
+.login-container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+.login-container img {
+    width: 31%;
+    height: 100vh;
+}
+
+.login-container .to-login {
+    height: 100vh;
+    width: 69%;
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.login-container .to-login h1{
+    height: 40px;
+
+
+
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #222244;
+
+
+}
+
+.login-container .to-login .login-google {
+    width: 181px;
+    height: 46px;
+
+    border-radius: 2px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.084), 0px 1px 1px rgba(0, 0, 0, 0.168);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .to-login .login-google img{
+    width: 1rem;
+    height: 1rem;
+
+}
+
+.login-container .to-login .login-google p {
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.login-container .to-login .login-email {
+    width: 517px;
+    height: 271px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.login-container .to-login .login-email fieldset {
+    height: 56px;
+    border-radius: 0.3rem;
+    border-color: whitesmoke;
+
+    padding-left: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .to-login .login-email fieldset input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+
+    font-size: 1rem;
+    
+    
+}
+
+.login-container .to-login .login-email .visibility-pass{
+    width: 24px;
+    height: 24px;
+    
+    margin-right: 12px;
+}
+
+.login-container .to-login .login-email button{
+    width: 517px;
+    height: 42px;
+
+    background-color: #FF5522;
+    color: #FCFDFF;
+    font-size: 1rem;
+    
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 4px;
+    
+    cursor: pointer;
+
+}
+
+.login-container .to-login .login-email .to-signup{
+    width: 100px;
+    text-decoration: none;
+    color: #818388;
+    cursor: pointer;
+}
+
+
+
