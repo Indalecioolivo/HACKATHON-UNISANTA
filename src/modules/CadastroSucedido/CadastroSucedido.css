@@ -1,0 +1,29 @@
+.cadastroSucedido-container {
+
+    width: 320px;
+    height: 52px;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 6px 16px;
+
+    background: #2E7D32;
+    border-radius: 4px;
+}
+
+.cadastroSucedido-container h3 {
+    /* Text */
+
+    padding: 8px 0px;
+    gap: 4px;
+
+    width: 254px;
+    height: 40px;
+
+    color: #fff;
+}

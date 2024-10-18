@@ -7,6 +7,7 @@ import BuscadorTags from "../../modules/BuscadorTags/BuscadorTags";
 import CardUsuario from "../../modules/CardUsuario/CardUsuario";
 import GridProjeto from "../../modules/GridProjeto/GridProjeto";
 import EsqueletoProjeto from "../../modules/EsqueletoProjeto/EsqueletoProjeto";
+import CadastroSucedido from "../../modules/CadastroSucedido/CadastroSucedido";
 
 
 export default function MyProjects() {
@@ -17,9 +18,16 @@ export default function MyProjects() {
 
       <ModalVisualizarProjeto/>
 
-      {/* <h2>Meus Projetos</h2>
-      <CardUsuario/>
-      <BuscadorTags/>
+      {/* <CadastroSucedido/> */}
+
+      {/* <div className="usuario">
+        <CardUsuario/>
+      </div>
+
+      <div className="buscador">
+        <h2>Meus Projetos</h2>
+        <BuscadorTags/>
+      </div>
       
       <div className="projetos">
         <GridProjeto/>
